@@ -39,7 +39,7 @@ class CashRegister
       @total -= @last_transaction_amount
        if @items.clear
          @total
-        binding.pry
+        # binding.pry
        end
     end
 
